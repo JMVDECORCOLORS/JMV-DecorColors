@@ -1,0 +1,545 @@
+.FormJMVDecor{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    align-items: center;
+    max-width: 600px;
+    flex-direction: column;
+
+}
+
+.css-jue3ft-MuiRating-root{
+    color: white!important;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    font-size: 14vw!important;
+    letter-spacing: 90vw!important;
+}
+.css-dqr9h-MuiRating-label{
+    margin: 0vw 1vw;
+}
+
+.FormJMVDecor form{
+    width: 100%;
+    height: 100%;
+}
+
+.slidemain{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*slide2*/
+select{
+    border: 0.3vw solid white;
+    border-radius: 3vw;
+    color: white;
+    width: 100%;
+    padding: 0 1vw;
+    margin-top: 1vw;
+    height: 5.5vw;
+    background-color: transparent;
+}
+
+option{
+    background-color:#b29234bd;
+    border-radius: 30vw;
+}
+.blocoSlide2{
+    z-index: 2;
+}
+.slide2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+
+}
+
+.blocoSlide2{
+    width: 80vw;
+    flex-direction: column;
+    background-color:#dbb33a;
+    padding: 5vw;
+    display: flex;
+    margin-top: 43vw;
+    align-items: center;
+    border-radius: 10vw;
+    justify-content: center;
+}
+.blocoSlide2 div{
+    z-index: 30;
+}
+.slide2pintor{
+    position: absolute;
+    left: 0;
+    margin-bottom: -120vw;
+    width: 90vw;
+}
+.slide2 p{
+    font-size: 5vw;
+}
+.slide2 input{
+    margin-top: 1vw;
+    padding: 0 1vw;
+    outline: none;
+    width: 100%;
+    color: white;
+    font-family: 'montserratLight';
+    background-color: transparent;
+    border: 0.3vw solid white;
+    height: 5vw;
+    border-radius: 3vw;
+}
+.slide2primeiroinput{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10vw;
+    align-items: left;
+    
+    flex-direction: column;
+}
+.slide2primeiroinput p{
+    margin-left: 3vw;
+
+}
+
+.slide2segundoblocoinput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10vw;
+}
+
+
+.slide2segundoblocoinput input{
+    width: 90%;
+}
+
+.slide2segundoblocoinputleft{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    align-items: flex-start;
+    justify-content: start;
+}
+.slide2segundoblocoinputleft p{
+    font-size: 4vw;
+    margin-left: 3vw;
+}
+.slide2segundoblocoinputright{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.slide2segundoblocoinputright p{
+    font-size: 4vw;
+    margin-left: 3vw;
+}
+
+.slide3terceiroslide{
+    margin-bottom: 10vw;
+    width: 100%;
+}
+.slide3terceiroslide p{
+    margin-left: 3vw;
+}
+.slide3terceiroslide input{
+    width: 100%;
+}
+
+
+.slide2blocoquatro{
+    margin-bottom: 10vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.slide2blocoquatro span{
+    font-weight: bolder;
+}
+
+
+
+/*fimslide2*/
+
+
+/*slide3*/
+.slide3{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/3bg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.blocoslide3{
+    padding: 5vw;
+   
+    margin-top: 43vw;
+    border-radius: 10vw;
+    width: 80vw;
+    margin-bottom: 20vw;
+    background-color: #dbb33a;
+
+}
+.blocoslide3  p{
+    font-size:5vw;
+}
+.divradio{
+    display: flex;
+    margin-bottom: 3vw;
+}
+.divradio label{
+    display: flex;
+}
+.inputsub{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'montserratLight';
+    font-size: 5vw;
+    cursor: pointer;
+
+}
+input[type=radio]{
+    width: 5vw;
+    appearance: none;
+    height: 5vw;
+    border: 0.5vw solid white;
+    border-radius: 100%;
+    background: transparent;
+    transition: all 500ms;
+}
+input[type=checkbox]{
+    width: 5vw;
+    appearance: none;
+    height: 5vw;
+    border: 0.5vw solid white;
+    border-radius: 100%;
+    background: transparent;
+    transition: all 500ms;
+}
+input[type=checkbox]:checked{
+    transition: all 500ms;
+    background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(219,179,58,1) 40%);
+}
+
+
+input[type=radio]:checked{
+    transition: all 500ms;
+    background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(219,179,58,1) 40%);
+}
+
+
+
+.divradio p{
+    margin-left: 3vw;
+}
+.contentradio{
+    margin-top: 10vw;
+}
+
+.navigationslide3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vw;
+    margin-top: 8vw;
+}
+.navigationslide3 p{
+    cursor: pointer;
+}
+.navigationslide3 p span{
+    font-weight: bolder;
+}
+.logodecor{
+    width:20vw; 
+}
+.logoDecor{
+    margin-left: 10vw;
+    width: 20vw;
+}
+.defaultfooter{
+    margin-bottom: 10vw;
+
+}
+
+/*fimslide3*/
+
+/*slide4*/
+.slide4{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/4gb.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.blocoinfoslide3{
+    background-color: #dbb33a;
+    width: 80vw;
+    border-radius: 8vw;
+    margin-bottom: 8vw;
+    margin-top: 94vw;
+    padding: 5vw;
+}
+
+.blocoinfoslide3 p{
+    font-size: 5vw;
+    text-align: justify;
+}
+.blocoinfoslide3 p span{
+    font-weight: bolder;
+}
+.navigationslide4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vw;
+}
+.navigationslide4 p{
+    cursor: pointer;
+}
+/*fimslide4*/
+
+/*slide5*/
+.slide5{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/5bg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.slide5 p {
+    font-size: 5vw;
+    text-align: justify;
+}
+.slide5 p span {
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.blocoinfoslide5{
+    width: 80vw;
+    border-radius: 6vw;
+    background-color: #dbb33a;
+    padding: 5vw;
+    margin-top: 30vw;
+    margin-bottom:10vw ;
+}
+.radiosSlide5{
+    margin-top: 8vw;
+}
+.radiosSlide5 input[type=radio]{
+    margin-left: 3vw;
+}
+.slide5Navigation{
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide5Navigation p{
+    cursor: pointer;
+}
+/*fimslide5*/
+/*slide6*/
+.slide6{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/6bg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.infobloco6{
+    margin-bottom: 10vw;
+    margin-top: 50vw;
+    padding: 5vw;
+    width: 80vw;
+    font-size: 5vw;
+    border-radius: 6vw;
+    background-color: #dbb33a;
+}
+.radiosbloco6{
+    margin-top: 6vw;
+    
+    margin-bottom: 6vw;
+}
+
+.navigationSlide6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigationSlide6 p{
+    cursor: pointer;
+}
+.navigationSlide6 span{
+    font-weight: bolder;
+}
+/*fimslide6*/
+/*slide7*/
+.slide7{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/7bg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.blocoinfo7{
+    width: 80vw;
+    margin-bottom: 10vw;
+    margin-top: 48vw;
+    background-color: #dbb33a;
+    padding: 5vw;
+    border-radius: 6vw;
+    font-size: 5vw;
+}
+.blocoinfo7 textarea{
+    background-color: transparent;
+    resize: none;
+    width: 75vw;
+    border-radius: 6vw;
+    margin-top: 10vw;
+    outline: none;
+    height: 40vw;
+    padding: 2vw 2vw;
+    margin-bottom: 10vw;
+    border: 0.3vw solid white;
+    font-size: 3vw;
+    color: white;
+    font-family: 'montserratLight';
+}
+.blocoinfo7 textarea::placeholder{
+    color: white;
+}
+/*fimslide7*/
+/*slide8*/
+.slide8{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/8bg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.slide8 p {
+    font-size: 5vw;
+}
+.slide8 p span {
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.blocoinfoslide8{
+    width: 80vw;
+    background-color: #dbb33a;
+    padding: 5vw;
+    border-radius: 6vw;
+    margin-top: 50vw;
+    margin-bottom: 10vw;
+}
+/*fimslide8*/
+
+/*slidethanks*/
+.slidethanks{
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bgs/thanksbg.png');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.blocoinfoslidethanks{
+    width: 80vw;
+    margin-top: 55vw;
+    padding: 5vw;
+    margin-bottom: 10vw;
+    background-color: #dbb33a;
+    border-radius: 6vw;
+}
+.blocoinfoslidethanks p{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 5vw;
+}
+.certificadotext{
+    text-align: justify!Important;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.certificadotext span{
+    font-weight: bolder;
+}
+.linksend{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.linksend div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.linksend div a p{
+    margin-top: 1vw;
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.linksend img{
+    height: 8vw;
+}
+.poredbyy{
+    margin-top: 10vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poredbyy img{
+    width:30vw;
+    height: unset;
+}
+/*fimslidethanks*/

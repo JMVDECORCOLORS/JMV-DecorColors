@@ -1,0 +1,65 @@
+.welcome{
+    background-image: url('../../assets/bgs/welcomebg.png');
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+ 
+    flex-direction: column;
+    background-size: 100%;
+    background-position-y: top;
+}
+
+.titleFormDecor{    
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 65vw;
+    margin-top:60vw;
+    margin-bottom: 10vw;
+}
+
+
+.WelcomeMainContent{
+    background-color: #dbb33a;
+    width:75vw;
+    display: flex;
+    height:60vw;
+    padding: 8vw;
+    margin-top: 90vw;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    justify-content: start;
+}
+.WelcomeMainContent p{
+    font-size: 5vw;
+    text-align: center;
+}
+
+.WelcomeMainContent button{
+    font-size: 5vw;
+    color: white;
+    font-family: 'montserratLight';
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30vw;
+    width: 100%;
+    padding: 1vw;
+    margin-top: 5vw;
+
+}
+
+.WelcomeMainContent a{
+    width: 80%;
+}
+
+.welcome footer{
+    margin-top: 8vw;
+
+    margin-bottom: 8vw;
+}
+.welcome footer img{
+    width: 40vw;
+}

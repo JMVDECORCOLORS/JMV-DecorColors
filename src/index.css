@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'montserratLight';
+  src: url('./assets/fonts/MontserratLight.ttf') format('truetype');
+  }
+
+body{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+p{
+  color: white;
+  font-family: 'montserratLight';
+
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  background-color: white;
+  justify-content: center;
+  overflow-x:hidden ;
+  
+}
+/* body::-webkit-scrollbar {
+  width: 10px;
+  
+}
+body::-webkit-scrollbar-track {
+  background-color: #393831;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #efcb09;
+} */
